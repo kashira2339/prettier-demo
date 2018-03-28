@@ -6,7 +6,7 @@
 
 - 統一されたコードフォーマットにしたがう
 - コーディングスタイル、またそのレビューに関する議論を不要に
-  - 時間と体力を節約し、コードを書くことに集中できる
+  - 時間と体力を節約し、コードを書くことに集中できる
 
 >It reminds me of how Steve Jobs used to wear the same clothes every day because he has a million decisions to make and he didn't want to be bothered to make trivial ones like picking out clothes. I think Prettier is like that.
 
@@ -25,7 +25,7 @@
 
 ### ESLintとの統合
 
-[``eslint-plugin-prettier``](https://github.com/prettier/eslint-plugin-prettier)をつかうことで、ESLintルールに則った自動整形が可能。
+[``eslint-plugin-prettier``](https://github.com/prettier/eslint-plugin-prettier)をつかうことで、ESLintルールに則った自動整形が可能。
 
 
 **.eslintrc.json**
@@ -41,7 +41,7 @@
 ### エディタとの統合
 
 Prettierには様々なエディタ用のプラグインがあり、
-これらを組み込むことで指定のショートカットキーやファイル保存時の自動整形が可能になる。
+これらを組み込むことで指定のショートカットキーやファイル保存時の自動整形が可能になる。
 
 それらのエディタプラグインによる整形は、Prettierで指定されているルールまたはESLintによって定められたルールに則って整形を行う。
 
